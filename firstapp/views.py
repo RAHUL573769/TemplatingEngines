@@ -9,3 +9,7 @@ def home(request):
 
 def templates(request):
     return render(request, "index.html")
+
+
+def templatesabout(request):
+    return render(request, "about.html")
