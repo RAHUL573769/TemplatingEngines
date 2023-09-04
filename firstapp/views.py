@@ -8,8 +8,8 @@ def home(request):
 
 
 def templates(request):
-    return render(request, "index.html")
+    return render(request, "index.html", {"author": "Glen Maxwell"})
 
 
 def templatesabout(request):
-    return render(request, "about.html")
+    return render(request, "about.html", {"author": "Glen Maxwell"})

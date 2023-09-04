@@ -1,3 +1,11 @@
 {% extends "base.html" %} {% block title %} Index Page {% endblock title %}
 
-<h1>{% block content %} Contents of Index Page {% endblock content %}</h1>
+<h1>
+  {% block content %}
+
+  <br />
+  Contents of Index Page
+
+  <br />
+  {{author}} {% endblock content %}
+</h1>
